@@ -163,7 +163,6 @@ export const site = {
     open: "Open",
     social: [
       { label: "Instagram", key: "instagram" },
-      { label: "TikTok", key: "tiktok" },
     ],
     copyright: "© 2026 Ravo Kafe",
     tagline: "Brewed with care, served with a grin.",
