@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/sections/Navbar";
 import { Hero } from "@/components/sections/Hero";
-import { Ticker } from "@/components/sections/Ticker";
 import { LineUp } from "@/components/sections/LineUp";
 import { VersusSection } from "@/components/sections/VersusSection";
 import { MoodPicker } from "@/components/sections/MoodPicker";
@@ -17,7 +16,6 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Ticker />
         <LineUp />
         <VersusSection />
         <MoodPicker />

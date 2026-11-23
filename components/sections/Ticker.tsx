@@ -41,13 +41,9 @@ function Ribbon({
 
 export function Ticker() {
   return (
-    <div
-      role="region"
-      aria-label={site.ticker.label}
-      className="pointer-events-none relative z-30 -mt-6 -mb-[58px] h-[178px] overflow-x-clip overflow-y-visible md:-mt-8 md:-mb-[72px] md:h-[198px]"
-    >
-      <Ribbon words={site.ticker.back} tone="mustard" reverse className="pointer-events-auto absolute left-0 right-0 top-2 z-20 rotate-[2.2deg] shadow-[0_6px_0_0_var(--color-sage)] md:top-3" />
-      <Ribbon words={site.ticker.front} tone="forest" className="pointer-events-auto absolute bottom-[-24px] left-0 right-0 z-30 -rotate-[1.8deg] shadow-[0_6px_0_0_var(--color-cream)] md:bottom-[-28px]" />
+    <div role="region" aria-label={site.ticker.label} className="relative h-[150px] overflow-hidden md:h-[170px]">
+      <Ribbon words={site.ticker.back} tone="mustard" reverse className="absolute top-6 rotate-[2.2deg]" />
+      <Ribbon words={site.ticker.front} tone="forest" className="absolute top-[66px] -rotate-[1.8deg] md:top-[76px]" />
     </div>
   );
 }
