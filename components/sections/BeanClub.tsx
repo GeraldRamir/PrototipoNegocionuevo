@@ -74,7 +74,7 @@ export function BeanClub() {
                         state === "error" ? "border-rust" : "border-sage/40"
                       }`}
                     />
-                    <button type="submit" className={buttonClasses("light", "md", "shrink-0 !bg-cream")}>
+                    <button type="submit" className={buttonClasses("light", "md", "shrink-0")}>
                       {copy.cta}
                     </button>
                   </div>

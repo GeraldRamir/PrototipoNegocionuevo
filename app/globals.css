@@ -6,18 +6,18 @@
    Design tokens — Phase 2 only needs to change this block.
 --------------------------------------------------------------------------- */
 :root {
-  /* Verdes */
+  /* Fondos cálidos Ravo + acentos rosados (Fase 2) */
   --color-forest: #1e3b2a;
   --color-forest-700: #24452f;
   --color-sage: #d3dab3;
-  --color-sage-light: #dde3c3;
-  --color-cream: #efeee4;
-  --color-cream-text: #e6e8cf;
-  --color-paper: #f7f5ec;
+  --color-sage-light: #d6dcbf;
+  --color-cream: #e4e0d6;
+  --color-cream-text: #ebe6da;
+  --color-paper: #ebe7df;
 
-  /* Acentos */
-  --color-mustard: #e3a146;
-  --color-rust: #c4572f;
+  /* Rosado en sombras, subrayados, stickers y cinta superior del ticker */
+  --color-mustard: #e07a9a;
+  --color-rust: #c44d72;
 
   /* Texto */
   --color-ink: #1e3b2a;
@@ -34,8 +34,8 @@
   --color-art-coffee: #7a4526;
   --color-art-coffee-dark: #2a140a;
   --color-art-crema: #c9894a;
-  --color-art-milk: #f6efe2;
-  --color-art-cup: #f4f1ea;
+  --color-art-milk: #ebe7df;
+  --color-art-cup: #e8e4dc;
   --color-art-lid-dark: #232323;
   --color-art-kraft: #b89c78;
   --color-art-crust: #c8833a;
@@ -55,6 +55,8 @@
   --pattern-opacity: 0.09;
   --pattern-size: 92px;
 }
+
+/* Mostaza original Fase 1: #e3a146 — sustituir --color-mustard para volver al look clásico */
 
 @media (min-width: 768px) {
   :root {
